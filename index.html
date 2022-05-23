@@ -5,33 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li> <a href="index.html">Home</a> </li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
 
-    <h1>Sobre Bruna</h1>
+    <h1 class="center">Sobre Bruna</h1>
 
-    <p> 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, obcaecati ab! Nostrum cum animi nulla dolorem commodi perferendis sed harum, illum rem adipisci quis eius dolores pariatur exercitationem, asperiores sapiente!
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vitae maxime voluptates possimus hic eos, sunt magni nihil nostrum velit deleniti eius nisi recusandae quidem minus ipsa quod, ipsum quos!
-    </p>
+    <div class="container">
 
-    <img src="assets/img/divina.jpg" alt="Foto do Perfil">
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, obcaecati ab! Nostrum cum animi nulla dolorem commodi perferendis sed harum, illum rem adipisci quis eius dolores pariatur exercitationem, asperiores sapiente!
+              </p>
+              <p class="justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vitae maxime voluptates possimus hic eos, sunt magni nihil nostrum velit deleniti eius nisi recusandae quidem minus ipsa quod, ipsum quos!
+              </p>
+            
+        </div>
+        
+        <div>
+        <img class="br-50 wh-300 p-30" src="assets/img/divina.jpg" alt="Foto do Perfil">
+        </div>
+       
+          
+    </div>
+    
+    <h2 class="center"> Meu video predileto: </h2>
+    <div class="container mb-50">
+        <iframe width="560"
+        height="315" src="https://www.youtube.com/embed/UoURP6rJ4hI" 
+        title="YouTube video player"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
 
-    <h2> Meu video predileto: </h2>>
+    </div>
+    <hr>
+    <footer>
 
-    <iframe width="560"
-     height="315" src="https://www.youtube.com/embed/UoURP6rJ4hI" 
-     title="YouTube video player"
-     frameborder="0" 
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-     allowfullscreen
-     ></iframe>
+        <div class="container"> 
+            <a href="https://pt-br.facebook.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do facebook">
+            </a>
+            
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do linkedin">
+
+
+            </a>
+            
+
+
+        </div>
+       <p class="center">
+        Bruna Martins &copy;
+        </p>
+    </footer>
+
 </body>
 </html>
